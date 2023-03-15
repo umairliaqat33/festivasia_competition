@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "561377214628",
+    "project_id": "child-safety-95928",
+    "storage_bucket": "child-safety-95928.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561377214628:android:d4c470294a155c3f9be631",
+        "android_client_info": {
+          "package_name": "com.example.festivasia_competetion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561377214628-nojd0dvit844tnv9miud3emc9iomplt5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3DyGWnQSe6hWwR4pftWPrGlXk0cCTriU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561377214628-nojd0dvit844tnv9miud3emc9iomplt5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
