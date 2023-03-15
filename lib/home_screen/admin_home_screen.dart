@@ -1,12 +1,11 @@
 import 'dart:developer';
 
+import 'package:flutter/material.dart';
+
 import 'package:festivasia_competetion/add_parent_account/add_parent_account_screen.dart';
 import 'package:festivasia_competetion/add_student/add_student_screen.dart';
 import 'package:festivasia_competetion/config/size_cofig.dart';
 import 'package:festivasia_competetion/widgets/container_widget.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 
 class AdminHomeScreen extends StatelessWidget {
   const AdminHomeScreen({super.key});
@@ -57,7 +56,8 @@ class AdminHomeScreen extends StatelessWidget {
                       onTap: () {
                         Navigator.of(context).pushAndRemoveUntil(
                           MaterialPageRoute(
-                            builder: (context) => AddParentAccountScreen(),
+                            builder: (context) =>
+                                const AddParentAccountScreen(),
                           ),
                           (route) => false,
                         );

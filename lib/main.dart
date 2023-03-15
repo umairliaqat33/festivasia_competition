@@ -1,5 +1,3 @@
-import 'package:festivasia_competetion/home_screen/admin_home_screen.dart';
-import 'package:festivasia_competetion/home_screen/parent_home_screen.dart';
 import 'package:festivasia_competetion/splash_screen/splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';

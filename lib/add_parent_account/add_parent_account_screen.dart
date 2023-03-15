@@ -3,15 +3,15 @@
 import 'dart:developer';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
+
 import 'package:festivasia_competetion/config/size_cofig.dart';
 import 'package:festivasia_competetion/constants/textfield_decoration.dart';
 import 'package:festivasia_competetion/home_screen/admin_home_screen.dart';
-import 'package:festivasia_competetion/home_screen/parent_home_screen.dart';
 import 'package:festivasia_competetion/models/user_model/user_model.dart';
 import 'package:festivasia_competetion/widgets/round_button.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 
 class AddParentAccountScreen extends StatefulWidget {
   const AddParentAccountScreen({super.key});
